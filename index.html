@@ -205,14 +205,19 @@
 >>>>>>> fd97e0e (update commit)
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script>
-      simplyCountdown(".simply-countdown", {
-        year: 2024, // required
-        month: 1, // required
-        day: 10, // required
-<<<<<<< HEAD
-=======
-=======
-
+      simplyCountdown('.simply-countdown', {
+      year: 2023, // required
+      month: 11, // required
+      day: 20, // required
+      hours: 8, // Default is 0 [0-23] integer
+      words: { //words displayed into the countdown
+        days: { singular: 'hari', plural: 'hari' },
+        hours: { singular: 'jam', plural: 'jam' },
+        minutes: { singular: 'menit', plural: 'menit' },
+        seconds: { singular: 'detik', plural: 'detik' }
+      },
+    });
+    </script>
     <section id="info" class="info">
       <div class="container">
         <div class="row justify-content-center">
@@ -521,8 +526,7 @@
         year: 2023, // required
         month: 11, // required
         day: 21, // required
->>>>>>> f91bf63 (update repo)
->>>>>>> fd97e0e (update commit)
+
         hours: 8, // Default is 0 [0-23] integer
         words: {
           //words displayed into the countdown
@@ -533,29 +537,6 @@
         },
       });
     </script>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> fd97e0e (update commit)
-    <script>
-      const rootElement = document.querySelector(":root");
-      function disableScroll() {
-        scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-        scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
-        window.onscroll = function () {
-          window.scrollTo(scrollTop, scrollLeft);
-        };
-        rootElement.style.scrollBehavior = "auto";
-      }
-      function enableScroll() {
-        window.onscroll = function () {};
-        rootElement.style.scrollBehavior = "smooth";
-      }
-      disableScroll();
-    </script>
-<<<<<<< HEAD
-=======
-=======
 
     <script>
       const stickyTop = document.querySelector(".sticky-top");
@@ -646,7 +627,6 @@
 
       document.querySelector("#nama").value = nama;
     </script>
->>>>>>> f91bf63 (update repo)
->>>>>>> fd97e0e (update commit)
+
   </body>
 </html>
