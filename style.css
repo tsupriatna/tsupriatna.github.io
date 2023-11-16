@@ -3,47 +3,6 @@
   --bg: #0a0a0a;
   --shadow: 0 2px 2px rgb(0 0 0 / 0.5);
 }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> fd97e0e (update commit)
-body {
-  font-size: 1.2rem;
-  font-family: "Work Sans", sans-serif;
-  min-height: 4000px;
-}
-.hero {
-  min-height: 100vh;
-}
-.hero h1 {
-  font-family: "Sacramento", cursive;
-  font-size: 6rem;
-}
-.hero h4 {
-  font-size: 1.6rem;
-}
-.hero p {
-  font-size: 1.4rem;
-}
-.hero a {
-  color: var(--pink);
-  background-color: white;
-  box-shadow: var(--shadow);
-}
-.hero a:hover {
-  color: white;
-  background-color: var(--pink);
-}
-.hero h1,
-.hero h4,
-.hero p {
-  text-shadow: var(--shadow);
-}
-.hero::before {
-  content: "";
-<<<<<<< HEAD
-=======
-=======
 
 body {
   font-size: 1.2rem;
@@ -53,8 +12,6 @@ body {
 
 .hero::before {
   content: '';
->>>>>>> f91bf63 (update repo)
->>>>>>> fd97e0e (update commit)
   position: absolute;
   top: 0;
   left: 0;
@@ -66,10 +23,6 @@ body {
   z-index: -1;
   filter: grayscale();
 }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
 
 .hero {
   position: relative;
@@ -106,28 +59,10 @@ body {
   color: white;
 }
 
->>>>>>> f91bf63 (update repo)
->>>>>>> fd97e0e (update commit)
 .mynavbar {
   background-color: rgba(255, 255, 255, 0.3) !important;
   backdrop-filter: blur(4px);
 }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> fd97e0e (update commit)
-.mynavbar .navbar-brand,
-.mynavbar .offcanvas-title {
-  font-family: "Sacramento", cursive;
-  font-size: 3.2rem;
-  font-weight: bold;
-}
-.mynavbar .nav-link {
-  text-transform: uppercase;
-}
-<<<<<<< HEAD
-=======
-=======
 
 .mynavbar .offcanvas {
   height: 100vh;
@@ -144,8 +79,6 @@ body {
   text-transform: uppercase;
 }
 
->>>>>>> f91bf63 (update repo)
->>>>>>> fd97e0e (update commit)
 .home {
   background-image: url(img/bg.png);
   background-size: cover;
@@ -154,19 +87,6 @@ body {
   padding-top: 15rem;
   padding-bottom: 5rem;
 }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> fd97e0e (update commit)
-.home h2 {
-  color: var(--pink);
-  font-family: "sacramento";
-  font-size: 5rem;
-  font-weight: bold;
-}
-<<<<<<< HEAD
-=======
-=======
 
 .home h2,
 .info h2,
@@ -180,35 +100,11 @@ body {
   font-weight: bold;
 }
 
->>>>>>> f91bf63 (update repo)
->>>>>>> fd97e0e (update commit)
 .home h3 {
   color: #444;
   font-size: 1.5rem;
   margin-bottom: 1rem;
 }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> fd97e0e (update commit)
-.home p {
-  color: #666;
-  font-size: 1.1rem;
-}
-.home .couple {
-  margin-top: 100px;
-}
-.home .couple h3 {
-  font-family: "Sacramento";
-  font-size: 2.4rem;
-  color: var(--pink);
-}
-.home .couple img {
-  width: 100%;
-  height: auto;
-<<<<<<< HEAD
-=======
-=======
 
 .home p {
   font-size: 1.1rem;
@@ -596,6 +492,4 @@ footer li {
   .timeline li .timeline-panel::after {
     top: 31px;
   }
->>>>>>> f91bf63 (update repo)
->>>>>>> fd97e0e (update commit)
 }
