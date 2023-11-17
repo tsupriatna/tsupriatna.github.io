@@ -1,14 +1,6 @@
 .simply-countdown {
   overflow: hidden;
   display: table;
-<<<<<<< HEAD
-  font-family: "Arial", sans-serif;
-=======
-<<<<<<< HEAD
-  font-family: "Arial", sans-serif;
-=======
->>>>>>> f91bf63 (update repo)
->>>>>>> fd97e0e (update commit)
   margin: auto;
 }
 .simply-countdown > .simply-section {
@@ -29,13 +21,7 @@
   display: block;
   text-align: center;
 }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
 
 .simply-countdown > .simply-section .simply-amount {
   font-size: 1.6rem;
 }
->>>>>>> f91bf63 (update repo)
->>>>>>> fd97e0e (update commit)
