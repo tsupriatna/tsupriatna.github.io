@@ -493,7 +493,7 @@ footer li {
     top: 31px;
   }
 }
-@media (max-width: 314px) {
+@media (max-width: 400px) {
   html {
     font-size: 60%;
   }
