@@ -317,9 +317,9 @@
 
     <script>
       simplyCountdown(".simply-countdown", {
-        year: 2023, // required
-        month: 11, // required
-        day: 21, // required
+        year: 2024, // required
+        month: 1, // required
+        day: 10, // required
         hours: 8, // Default is 0 [0-23] integer
         words: {
           //words displayed into the countdown
@@ -393,24 +393,9 @@
       // if (!localStorage.getItem('opened')) {
       //   disableScroll();
       // }
-      disableScroll();
+      // disableScroll();
     </script>
-    <script>
-      window.addEventListener("load", function () {
-        const form = document.getElementById("my-form");
-        form.addEventListener("submit", function (e) {
-          e.preventDefault();
-          const data = new FormData(form);
-          const action = e.target.action;
-          fetch(action, {
-            method: "POST",
-            body: data,
-          }).then(() => {
-            alert("Konfirmasi kehadiran berhasil terkirim!");
-          });
-        });
-      });
-    </script>
+
     <script>
       const urlParams = new URLSearchParams(window.location.search);
       const nama = urlParams.get("n") || "";
